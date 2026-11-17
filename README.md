@@ -9,7 +9,9 @@
 ### clang
 
 Дебаг:
+
 `clang -O0 -g -Wall -Wextra main.c -o main.exe`
--O0 -g -Wall -Wextra
+
 Релиз:
+
 `clang -O3 -march=native -flto -funroll-loops -DNDEBUG -Wall -Wextra main.c -o main.exe`
